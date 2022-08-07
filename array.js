@@ -159,3 +159,22 @@ let totalDonations = donations.reduce(function (previousValue, currentValue) {
 });
 
 console.log("totalDonations", totalDonations);
+
+
+// 
+let P = 1, R = 1, T = 1;
+let SI = (P * R * T);
+console.log(SI);
+
+// area of circle
+let a = 3.14, r = 5;
+let area = (a * r * r);
+console.log(area);
+
+// 
+var x = 5;
+if (x < 0)
+    return "negative";
+else
+    if (x > 0)
+        return "positive";
