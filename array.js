@@ -173,8 +173,11 @@ console.log(area);
 
 // 
 var x = 5;
-if (x < 0)
-    return "negative";
-else
+if (x < 0){
+    console.log ("negative");
+}
+
+else{
     if (x > 0)
-        return "positive";
+    console.log ("positive");
+    }
