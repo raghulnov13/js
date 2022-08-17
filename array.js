@@ -173,19 +173,23 @@ console.log(area);
 
 // 
 var x = 5;
-if (x < 0){
-    console.log ("negative");
+if (x < 0) {
+    console.log("negative");
 }
 
-else{
+else {
     if (x > 0)
-    console.log ("positive");
-    }
+        console.log("positive");
+}
 
 
 
 
 // Date
+
+
+
+// Get Method
 const d = new Date();
 console.log(d.getTime());
 console.log(d.getHours());
@@ -196,4 +200,6 @@ console.log(d.getMonth());
 console.log(d.getDate());
 console.log(d.getDay());
 console.log(Date.now());
+
+
 
