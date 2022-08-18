@@ -83,7 +83,7 @@ c - b; //returns NaN; - operator can only used with numbers
 
 // Comparison Operators
 
-return true/false
+return true / false
 var a = 5, b = 10, c = "5";
 var x = a;
 
@@ -129,3 +129,11 @@ z = y / x; //performs division and returns 2
 
 z = x % 2; //returns division remainder 1
 
+// Relational
+const trees = ['redwood', 'bay', 'cedar', 'oak', 'maple'];
+0 in trees;        // returns true
+3 in trees;        // returns true
+6 in trees;        // returns false
+'bay' in trees;    // returns false (you must specify the index number,
+// not the value at that index)
+'length' in trees; // returns true (length is an Array property)
