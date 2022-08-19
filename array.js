@@ -162,25 +162,25 @@ const donations = [100, 200, 50, 325, 150, 3000]
 
 
 // 
-// let P = 1, R = 1, T = 1;
-// let SI = (P * R * T);
-// console.log(SI);
+let P = 1, R = 1, T = 1;
+let SI = (P * R * T);
+console.log(SI);
 
 // area of circle
-// let a = 3.14, r = 5;
-// let area = (a * r * r);
-// console.log(area);
+let a = 3.14, r = 5;
+let area = (a * r * r);
+console.log(area);
 
-// 
-// var x = 5;
-// if (x < 0) {
-//     console.log("negative");
-// }
 
-// else {
-//     if (x > 0)
-//         console.log("positive");
-// }
+var x = 5;
+if (x < 0) {
+    console.log("negative");
+}
+
+else {
+    if (x > 0)
+        console.log("positive");
+}
 
 
 
