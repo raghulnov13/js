@@ -154,33 +154,33 @@ const donations = [100, 200, 50, 325, 150, 3000]
 // });
 
 // for total value
-let totalDonations = donations.reduce(function (previousValue, currentValue) {
-    return previousValue + currentValue;
-});
+// let totalDonations = donations.reduce(function (previousValue, currentValue) {
+//     return previousValue + currentValue;
+// });
 
-console.log("totalDonations", totalDonations);
+// console.log("totalDonations", totalDonations);
 
 
 // 
-let P = 1, R = 1, T = 1;
-let SI = (P * R * T);
-console.log(SI);
+// let P = 1, R = 1, T = 1;
+// let SI = (P * R * T);
+// console.log(SI);
 
 // area of circle
-let a = 3.14, r = 5;
-let area = (a * r * r);
-console.log(area);
+// let a = 3.14, r = 5;
+// let area = (a * r * r);
+// console.log(area);
 
 // 
-var x = 5;
-if (x < 0) {
-    console.log("negative");
-}
+// var x = 5;
+// if (x < 0) {
+//     console.log("negative");
+// }
 
-else {
-    if (x > 0)
-        console.log("positive");
-}
+// else {
+//     if (x > 0)
+//         console.log("positive");
+// }
 
 
 
@@ -201,5 +201,36 @@ console.log(d.getDate());
 console.log(d.getDay());
 console.log(Date.now());
 
+// 
+for (let i = 0; i < 5; i++) {
+    console.log(Math.floor(Math.random() * (100 + 1)));
+}
+
+// Dies
+function rollDie() {
+    let play = [1, 2, 3, 4, 5, 6];
+    let roll = Math.floor(Math.random() * play.length);
+    var game = play[roll];
+    console.log(game);
+}
+    rollDie();
+
+// function throwDice() {
+//     rollDie();
+//     rollDie();
+//     rollDie();
+//     rollDie();
+//     rollDie();
+//     rollDie();
+// }
+
+// 
+// function getRandomInt(max) {
+//     return Math.floor(Math.random() * max);
+//   }
+  
+//   console.log(getRandomInt(2));
+  // expected output: 0-100
 
 
+  
