@@ -45,10 +45,10 @@ else {
 
 var value = 5;
 if (value % 2 == 0) {
-    console.log("odd");
+    console.log("even");
 }
 else {
-    console.log("even");
+    console.log("odd");
 }
 
 // even
@@ -71,9 +71,9 @@ console.log(total);
 console.log(avg);
 
 // Program for large number
-let l = 98; l1 =555;
+let l = 98; l1 = 555;
 if (l < 100) {
-    console.log("smaller");
+    console.log(l1 + "is smaller than" +l );
 }
 else {
     console.log("larger");
