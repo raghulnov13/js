@@ -152,4 +152,52 @@ else{
 
 
 
+// //Grade sum using If
+// let mark = 88;
+
+// if (mark >= 90){
+// document.write("A grade");
+// }
+// else if (mark >=80){
+// document.write("B grade");
+// }
+// else if (mark >= 70){
+// document.write("C grade");
+// }
+// else if (mark >= 50){
+// document.write("D grade");
+// }
+// else{
+// document.write("F grade");
+// }
+
+//Grade sum using If
+let mark = 88;
+
+if (mark >= 90){
+console.log("A grade");
+}
+else if (mark >=80){
+console.log("B grade");
+}
+else if (mark >= 70){
+console.log("C grade");
+}
+else if (mark >= 50){
+console.log("D grade");
+}
+else{
+console.log("F grade");
+}
+
+
+
+
+
+
+
+
+
+
+
 
