@@ -73,7 +73,7 @@ console.log(avg);
 // Program for large number
 let l = 98; l1 = 555;
 if (l < 100) {
-    console.log(l1 + "is smaller than" +l );
+    console.log(l1 + "is smaller than" + l);
 }
 else {
     console.log("larger");
@@ -99,11 +99,11 @@ else {
 
 // Simple Interest
 let P = 1, R = 1, T = 1;
-let SI = (P * R * T)/100;
+let SI = (P * R * T) / 100;
 console.log(SI);
 
 // area of circle
-let  r = 5;
+let r = 5;
 let area = (Math.PI * r * r);
 console.log(area);
 
@@ -142,12 +142,12 @@ console.log(mobile.reverse());
 
 
 // 
-let f1 =45;
-if (f1%11 ==0 ){
-	console.log("divisible");
+let f1 = 45;
+if (f1 % 11 == 0) {
+    console.log("divisible");
 }
-else{
-	console.log("not divisible");
+else {
+    console.log("not divisible");
 }
 
 
@@ -174,21 +174,96 @@ else{
 //Grade sum using If
 let mark = 88;
 
-if (mark >= 90){
-console.log("A grade");
+if (mark >= 90) {
+    console.log("A grade");
 }
-else if (mark >=80){
-console.log("B grade");
+else if (mark >= 80) {
+    console.log("B grade");
 }
-else if (mark >= 70){
-console.log("C grade");
+else if (mark >= 70) {
+    console.log("C grade");
 }
-else if (mark >= 50){
-console.log("D grade");
+else if (mark >= 50) {
+    console.log("D grade");
+}
+else {
+    console.log("F grade");
+}
+
+// multiply of 7
+var s = 21;
+if (s % 7 == 0) {
+    console.log("divisible by 7");
+}
+else {
+    console.log("not divisible by 7");
+}
+
+// Quadratic formula   -b+-squareroot(b2-4ac)/2a
+let a1 = 2
+let b1 = 4
+let c1 = 5
+
+let root = Math.sqrt(b1 * b1 - 4 * a1 * c1);
+let denom = 2 * a1;
+
+let root1 = (b + root) / denom;
+let root2 = (-b - root) / denom;
+
+console.log(root1);
+
+
+
+// decending
+let v2 = [20, 40, 50]
+let v3 = v2.sort((v2,v3)=>v3-v2)
+console.log(v3)
+
+
+// 
+
+let licenseAge = 22
+let rto = "pass"
+
+if (licenseAge>=18 && rto=="pass"){
+    console.log("eligible for license");
 }
 else{
-console.log("F grade");
+    console.log("not eligible for license");
 }
+
+// 
+let age2 = +prompt("enter your age");
+let gender = prompt("enter your gender");
+
+if (age2>=20 && age2<=40 && gender=="male"){
+    console.log("work anywhere");
+}
+else if (age2>=40 && age2<=60 && gender=="male"){
+    console.log("work in urban areas only");
+}
+else if (gender=="female"){
+    console.log("work in urban areas only");
+}
+else{
+    console.log("error");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
