@@ -1,3 +1,32 @@
+// Function Declaration
+function raghul() {
+    console.log("raghul");
+}
+raghul();
+
+// Function Expression
+let data = function raghul() {
+    console.log("raghul");
+}
+raghul();
+
+// Function 
+
+// Function IISF
+(function (raghul) {
+    console.log(raghul);
+})("WEB DEVELOPER");
+
+// Arrow function ex. one line function
+const arrow = (a,b) => a+b;
+console.log(arrow(95,5));
+
+// Arrow function ex. one line function
+let square = a => a*a;
+console.log(square(5));
+
+
+
 function ral(civil) {
     if (civil > 100) {
         return 'good';
@@ -35,6 +64,7 @@ function user(firstName, secondName) {
     console.log(detail);
 }
 user("Raghul", "Raj ")
+
 
 // fun arguments
 function sumExpense() {
