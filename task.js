@@ -7,15 +7,12 @@ for (let i = 1; i <= 5; i++) {
 console.log(sum);
 
 
-
-
 // factorial
-let fact = 1, n = 5;
-while (n >= 1) {
-    fact = fact * n;
-    n = n - 1;
+let factorial = 1, number = 5;
+for (let i = number; i >= 1; i--) {
+    factorial = factorial * i;
 }
-console.log(fact);
+console.log(factorial);
 
 // ascending order using for loop
 function value() {

@@ -18,11 +18,11 @@ raghul();
 })("WEB DEVELOPER");
 
 // Arrow function ex. one line function
-const arrow = (a,b) => a+b;
-console.log(arrow(95,5));
+const arrow = (a, b) => a + b;
+console.log(arrow(95, 5));
 
 // Arrow function ex. one line function
-let square = a => a*a;
+let square = a => a * a;
 console.log(square(5));
 
 
