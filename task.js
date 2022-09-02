@@ -37,3 +37,71 @@ value();
 for (let i = 10; i >= 1; i--) {
     console.log(i);
 }
+
+
+
+
+
+
+// armstrong number
+let x = 153;
+let y = x;
+let z = 0;
+while (x > 0) {
+    let remainder = x % 10;
+    z += remainder ** 3;
+    x = Math.floor(x / 10);
+}
+if (y == z) {
+    console.log("number is an armstrong number");
+}
+else {
+    console.log("number is not an armstrong number");
+}
+
+// Reverse number
+let a = 153;
+let b = a;
+let c = 0;
+while (a > 0) {
+    let rem = a % 10;
+    c = (c*10)+rem;
+    a =Math.floor(a/10);
+}
+console.log(c);
+
+// 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

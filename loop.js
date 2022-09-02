@@ -34,9 +34,9 @@ for (let i = 10; i >= 1; i--) {
 }
 
 // even numbers
-for (let i = 1; i <= 15; i+=2) {
-     console.log(i);
-    
+for (let i = 1; i <= 15; i += 2) {
+    console.log(i);
+
 
 }
 
@@ -91,7 +91,7 @@ for (let key in mobiles) {
 
 // for-in array 
 let colors = ["red", "green", "yellow"];
-for(let key in colors){
+for (let key in colors) {
     console.log(colors[key]);
 }
 
@@ -99,3 +99,28 @@ for(let key in colors){
 for (let mobile of mobiles) {
     console.log("color: " + mobile);
 }
+
+
+// Armstrong number
+let x = 371;
+let y = x.toString();
+let sum = 0;
+for (i = y.length - 1; i >= 0; i--) {
+    let b = parseInt(y[i]);
+    sum += b * b * b;
+}
+if (sum == x) {
+    console.log("armstrong number");
+}
+else {
+    console.log("not armstrong number");
+}
+
+// reverse number
+var r = 834;
+var a = "";
+var g = r.toString();
+for (let i = g.length - 1; i >= 0; i--){
+    a+=g[i];
+}
+console.log(a);
