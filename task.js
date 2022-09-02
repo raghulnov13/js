@@ -14,6 +14,14 @@ for (let i = number; i >= 1; i--) {
 }
 console.log(factorial);
 
+// 
+let fact = 1;
+let f4 = 5;
+for (let i = f4; i >=1; i--) {
+    fact = fact * i;
+}
+console.log(fact);
+
 // ascending order using for loop
 function value() {
     for (let i = 1; i <= 10; i++) {
@@ -40,9 +48,6 @@ for (let i = 10; i >= 1; i--) {
 
 
 
-
-
-
 // armstrong number
 let x = 153;
 let y = x;
@@ -61,12 +66,11 @@ else {
 
 // Reverse number
 let a = 153;
-let b = a;
 let c = 0;
 while (a > 0) {
     let rem = a % 10;
-    c = (c*10)+rem;
-    a =Math.floor(a/10);
+    c = (c * 10) + rem;
+    a = Math.floor(a / 10);
 }
 console.log(c);
 

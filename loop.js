@@ -124,3 +124,11 @@ for (let i = g.length - 1; i >= 0; i--){
     a+=g[i];
 }
 console.log(a);
+
+
+// factorial
+let factorial = 1, number = 5;
+for (let i = number; i >= 1; i--) {
+    factorial = factorial * i;
+}
+console.log(factorial);
