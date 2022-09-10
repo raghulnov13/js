@@ -19,16 +19,40 @@ for (var i = 1; i <= 10; i++) {
     console.log(i);
 }
 
-// 
-var value = 20;
+// prime number
+var value = 5;
+let prime = 0;
 for (i = 2; i < value; i++) {
-    if (value % 2 == 0) {
-        console.log("prime number");
-    }
-    else {
-        console.log("not a prime number");
+    if (value % i == 0) {
+        prime++;
     }
 }
+if (prime == 0) {
+    console.log(value + "is a prime number");
+}
+else {
+    console.log("is not a prime number");
+}
+
+// prime number with range
+var x = 9;
+
+for (i = 2; i <= x; i++) {
+    var flag = 0;
+    for (j = 2; j <= i / 2; j++) {
+        if (i % j == 0) {
+            flag = 1;
+            break
+        }
+    }
+    if (flag == 0) {
+        console.log("prime no");
+        console.log(i);
+    }
+}
+
+
+
 
 // Fibonacci Series
 let n1 = 0, n2 = 1, nextTerm;
@@ -42,8 +66,8 @@ for (let i = 1; i <= fib; i++) {
 }
 
 // 
-let a1 =[2,4,6,8,10,12,14,16];
-let b1 =[1,3,5,7,9,11,13,15];
+let a1 = [2, 4, 6, 8, 10, 12, 14, 16];
+let b1 = [1, 3, 5, 7, 9, 11, 13, 15];
 
 let asce = a1.concat(b1);
 asce.sort();

@@ -250,7 +250,7 @@ else{
 }
 
 let age = 15;
-let parentPermission = false
+let parentPermission = false;
 if (age < 18) {
     if (parentPermission == true)
     {
@@ -261,7 +261,7 @@ else {
 }
 }
 else if (age > 50) {
-    console.log("not allowed");
+    console.log("not allowed"); 
 }
 else
     console.log("allowed");
@@ -335,7 +335,7 @@ console.log(apple);
 
 // console.log(check(17));
 
-// 
+//
 let age = 17;
 if (age >= 18) {
     console.log("eligible");
