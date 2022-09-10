@@ -18,7 +18,7 @@ let t = ''
 for (i = x.length - 1; i >= 0; i--) {
     t += x[i]
 }
-for (j = 0; j < x.length; j++) {
+for (j = 0; j < t.length; j++) {
     for (k = 0; k < n.length; k++) {
         if (t[j] == k) {
             console.log(n[k])
