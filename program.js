@@ -119,3 +119,26 @@ for (x = 1; x <= 50; x++) {
         console.log(x);
     }
 }
+// 
+function noOfVowels(a,b) {
+    var listOfVowels = 'aAeEiIoOuU';
+    var vowelsCount = 0;
+    for (var i = 0; i < a.length; i++) {
+        if (listOfVowels.indexOf(a[i]) !== -1) {
+            vowelsCount += 1;
+        }
+    }
+    return vowelsCount;
+    for (var i = 0; i < b.length; i++) {
+        if (listOfVowels.indexOf(b[i]) !== -1) {
+            vowelsCount += 1;
+        }
+    }
+    return vowelsCount;
+}
+console.log(noOfVowels("raghul","ravanth"));
+
+
+
+
+
