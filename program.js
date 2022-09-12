@@ -129,7 +129,7 @@ function noOfVowels(a,b) {
         }
     }
     return vowelsCount;
-    for (var i = 0; i < b.length; i++) {
+    for (var j = 0; j < b.length; j++) {
         if (listOfVowels.indexOf(b[i]) !== -1) {
             vowelsCount += 1;
         }
